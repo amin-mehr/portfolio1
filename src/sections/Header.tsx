@@ -9,7 +9,7 @@ export const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + 150;
+      const scrollPosition = window.scrollY + 400;
 
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = document.getElementById(sections[i]);
