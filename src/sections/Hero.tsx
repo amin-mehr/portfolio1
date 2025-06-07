@@ -89,16 +89,21 @@ export const HeroSection = () => {
 
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center mt-12 gap-4 relative z-10'>
-          <button className='inline-flex items-center gap-2  border border-white/15 px-6 h-12 rounded-xl text-white transition duration-300 hover:bg-white/10 hover:border-white/30'>
-            <span >کارهای من</span>
-            <ArrowDown className='size-4' />
-          </button>
-          <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl transition duration-300 hover:bg-gray-100'>
+          <a href="#projects">
+            <button className='inline-flex items-center gap-2  border border-white/15 px-6 h-12 rounded-xl text-white transition duration-300 hover:bg-white/10 hover:border-white/30'>
+              <span >کارهای من</span>
+              <ArrowDown className='size-4' />
+            </button>
+          </a>
+          <a href="#contact">
+            <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl transition duration-300 hover:bg-gray-100'>
 
-            <span className='font-semibold'>تماس با من</span>
-          </button>
+              <span className='font-semibold'>تماس با من</span>
+
+            </button>
+          </a>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
